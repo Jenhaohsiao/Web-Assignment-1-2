@@ -1,0 +1,244 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: 100;
+}
+
+#page-style {
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.margin-auto-LR {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-auto-TB {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#login-form {
+    float: left;
+    overflow: auto;
+    border: 5px solid #000000;
+    width: 330px;
+    margin: 30px;
+    /* border-radius: 5px; */
+}
+
+#login-title {
+    padding: 1px;
+    font-size: 20px;
+    color: #4b4848;
+    margin: 0px 0px 10px 0px;
+}
+
+.login-form-input {
+    width: 288px;
+    border: 1px solid #636363;
+    border-radius: 3px;
+    font-size: 18px;
+    height: 30px;
+    padding: 5px 10px;
+    margin: 5px 10px 5px 10px;
+}
+
+#login-sign-in {
+    width: 310px;
+    padding: 15px 10px;
+    border-radius: 3px;
+    border: 0;
+    margin: 5px 10px 5px 10px;
+    background-color: #2b4996;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#login-sign-in:hover {
+    background-color: #8e9dc1;
+}
+
+.link-wording {
+    color: #2b4996;
+    font-weight: 900;
+}
+
+.link-wording:hover {
+    color: #8e9dc1;
+}
+
+#explore-table {
+    border-collapse: collapse;
+    float: right;
+    border: 1px solid #697f9b;
+    width: 600px;
+    box-shadow: 0px 0px 5px 1px #697f9b;
+}
+
+#profile-mug-shot {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 20px 30px;
+}
+
+.align_top {
+    vertical-align: top;
+}
+
+.align_vertical-center {
+    vertical-align: middle;
+}
+
+.align_right {
+    text-align: right;
+}
+
+.align_center {
+    text-align: center;
+}
+
+.float-clear {
+    clear: both;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.custom-radio-line {
+    margin: 18px 0;
+}
+
+#banner-image {
+    background-image: url(../SRC/images/background-image.jpg);
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-text-style {
+    font-size: 20px;
+}
+
+.font-color-ffffff {
+    color: #ffffff;
+}
+
+.banner-text-position {
+    margin: auto;
+    width: 85%;
+    padding: 20px;
+}
+
+.sub-working {
+    font-size: 13px;
+}
+
+#mark-image {
+    height: 13px;
+    width: 13px;
+}
+
+.section-margin {
+    margin: 20px 0px 0px 0px;
+}
+
+.mark-position {
+    float: left;
+    padding-left: 20px;
+}
+
+.plan-section {
+    margin: 20px 20px 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+
+.background-gray {
+    background-color: #e9e9e9;
+}
+
+.plan-frame {
+    width: 220px;
+    border: 1px solid #b6b5b5;
+    background-color: #ffffff;
+}
+
+.plan-frame-title {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.plan-frame-subTitle {
+    font-size: 13px;
+}
+
+#plan-background-green {
+    background-color: #065c15;
+}
+
+#plan-background-blue {
+    background-color: #5fa9c9;
+}
+
+#plan-background-purple {
+    background-color: #8324a9;
+}
+
+#plan-background-brown {
+    background-color: #7e3619;
+}
+
+ul.plan-list {
+    padding: 0px 0px 0px 20px;
+}
+
+.plan-list li {
+    margin: 12px 0;
+}
+
+.plan-section-body {
+    margin: 10px;
+    font-size: 12px;
+}
+
+.plan-section-button {
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    margin: 20px 0px;
+    background-color: #fffff1;
+    border: 1px solid #577de6;
+    color: #577de6;
+}
+
+.plan-section-button:hover {
+    background-color: #b6c3d2;
+}
+
+#foot-section {
+    padding: 30px;
+    color: #577de6;
+    font-size: 11px;
+}
+
+#footer-option td {
+    border-right: 1px solid #8a8484;
+    padding: 0 5px;
+}
